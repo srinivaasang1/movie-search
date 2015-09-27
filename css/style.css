@@ -1,0 +1,75 @@
+
+html{
+	height: 100%;
+	width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.bgimg {
+    background-size:cover;
+    height: 100%;
+    width:100%;
+    display: table;
+    background: url('../img/parallax.jpg') no-repeat center center scroll;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+        -o-background-size: cover;
+color: red;
+
+    }
+
+.res{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	overflow-x: hidden;
+}
+
+.blackb{
+	background-size:cover;
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-color:rgba(33,40,45,0.7) ;
+    overflow-x: hidden;
+}
+
+
+.butt {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+
+
+.btnspace{
+	margin-top: 15px;
+}
+
+.poster{
+	float: left;
+}
+
+.row{
+	margin-top: 30px;
+}
+
+.right{
+	margin-left: 2%;
+	margin-right: auto;
+}
